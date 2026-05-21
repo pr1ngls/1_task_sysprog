@@ -1,0 +1,6 @@
+[submodule "linux"]
+	path = linux
+	url = git@github.com:pr1ngls/linux.git
+[submodule "opensbi"]
+	path = opensbi
+	url = git@github.com:pr1ngls/opensbi.git

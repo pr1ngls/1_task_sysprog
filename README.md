@@ -10,3 +10,10 @@
 sudo apt install -y build-essential git bc bison flex libssl-dev libelf-dev \
 qemu-system-misc gcc-riscv64-linux-gnu gdb-multiarch
 ```
+Для тестирования 
+```
+./build.sh
+```
+## Что было сделано
+
+Добавлен системный вызов в linux выводящий информацию о процессоре, а также sbi вызов возвращающий случайное число и сделанная оболочка над ним в линуксе
